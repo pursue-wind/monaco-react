@@ -573,8 +573,6 @@ const examples = {
      }
   `),
   19: rTabs(`
-    // the code example from https://github.com/suren-atoyan/state-local
-
     import { compose, curry, isFunction } from '../utils';
     import validators from '../validators';
     

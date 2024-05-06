@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import classNames from 'classnames';
+import { ReactComponent as Logo } from './logo.svg';
 
 import Notifications from 'notifications';
 
@@ -29,13 +30,15 @@ const Header = _ => {
     setEditorMode(editorMode === 'editor' ? 'diffEditor' : 'editor');
   }
 
+
   return (
     <>
       <AppBar color="default">
         <Toolbar>
-          <Typography className={classes.logo}>
-            {"<Pursue />"}
+          <Typography className={classes.logo2}>
+            <Logo/>
           </Typography>
+
           {
             !isMobile && (
               <Typography variant="h6" className={classes.title}>

@@ -11,6 +11,9 @@ const useStyles = makeStyles(theme => ({
     padding: 2,
     borderColor: theme.palette.secondary.light,
   },
+  logo2: {
+    flexGrow: 0.23,
+  },
   themeSwitcher: {
     transition: '0.8s ease',
     transform: 'rotate(180deg)',
