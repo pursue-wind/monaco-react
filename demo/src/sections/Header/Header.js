@@ -34,12 +34,12 @@ const Header = _ => {
       <AppBar color="default">
         <Toolbar>
           <Typography className={classes.logo}>
-            {"<MR />"}
+            {"<Pursue />"}
           </Typography>
           {
             !isMobile && (
               <Typography variant="h6" className={classes.title}>
-                Monaco Editor React
+                Monaco Editor
               </Typography>
             )
           }

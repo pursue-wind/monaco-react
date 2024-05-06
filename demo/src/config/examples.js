@@ -775,7 +775,7 @@ const examples = {
 
     Run these commands to clone the repository, install dependencies and run the application.
 
-    1) \`git clone https://github.com/SurenAt93/primes.git\`
+    1) \`git clone https://github.com/pursue-wind/intellij-plugin-bobobox\`
     2) \`cd primes\`
     3) \`npm install\` (or if you are using yarn, just \`yarn\`)
     4) \`npm run start\` (or \`yarn start\` in case of yarn)

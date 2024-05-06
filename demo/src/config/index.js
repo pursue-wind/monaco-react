@@ -1,6 +1,6 @@
 const config = {
   links: {
-    github: 'https://github.com/SurenAt93/monaco-react',
+    github: 'https://github.com/pursue-wind/',
   },
 
   notifications: {
